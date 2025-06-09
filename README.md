@@ -1,3 +1,5 @@
-Merge multiple metabolite pathway databases into one database with ChatGPT.
+# Integrated Metabolic Pathway Database (iMetPD)
+
+Integration of multiple metabolic pathway databases.
 
 Functions in Mapa (https://github.com/jaspershen-lab/mapa) were used.
