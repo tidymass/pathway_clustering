@@ -24,7 +24,7 @@ embeding_res <-
   count.cutoff.metkegg = -1 # Minimum metabolite count cutoff for KEGG pathways
 )
 
-save(embeding_res, file = "2_data/4_embedding_results/embeding_res.rda")
+save(embeding_res, file = "2_data/4_embedding_results/embeding_res2.rda")
 
 # clustering
 cluster_res <- mapa::merge_pathways_bioembedsim(
