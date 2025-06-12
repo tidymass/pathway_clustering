@@ -20,7 +20,7 @@ embeding_res <-
   text_embedding_model = "text-embedding-3-small",
   api_key = "", # Insert your api key
   database = c("hmdb", "metkegg"),
-  count.cutoff.hmdb = 0,    # Minimum metabolite count cutoff for HMDB pathways
+  count.cutoff.hmdb = -1,    # Minimum metabolite count cutoff for HMDB pathways
   count.cutoff.metkegg = -1 # Minimum metabolite count cutoff for KEGG pathways
 )
 
